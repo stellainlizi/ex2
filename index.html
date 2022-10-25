@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>羊羊de衣</title>
+		<style>
+			
+			#main{
+				
+			width: 630px;
+			height: 1030px;
+			margin:auto auto;
+				background-image: url(img/IMG_8668.PNG);
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-position: center center;
+			}
+			.movetitle{
+				width: 630px;
+				height:1030px;
+				margin: 0px 0px;
+				position:contain ;
+			position: relative;
+			background-image: url(img/IMG_8669.PNG);
+			background-size: contain;
+			background-repeat: no-repeat;
+			
+			animation: mymove 3s ;}
+			@keyframes mymove{
+				from{top:-150px;}
+				to{top:0px}
+			}
+			.picrotation{
+				width: 1444px;
+				height: 1444px;
+				
+				background-image: url(img/IMG_8667.PNG);
+				border-radius: 200px;
+				animation: picrotation 15s linear 0s infinite;
+			}
+			@keyframes picrotation{
+				from{transform: rotate(0deg);} 
+				to{transform: rotate(360deg);}
+			}
+		 .picrotation:hover{
+				animation-play-state: paused;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="main" ><div class="movetitle">  </div></div>
+        
+        
+	</body>
+</html>
